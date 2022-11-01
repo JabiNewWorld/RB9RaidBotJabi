@@ -16,12 +16,6 @@ from optparse import Option
 from secrets import choice
 from colorama import Fore
 
-VERSION = "1.0"
-
-os.system("mode con: cols=70 lines=21")
-ctypes.windll.kernel32.SetConsoleTitleW(f"RB9 RAID BOT | Version {VERSION} |")
-
-
 bot = commands.Bot(command_prefix="$", intents=discord.Intents(guilds=True, messages=True))
 bot.remove_command('help')
 
