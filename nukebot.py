@@ -25,7 +25,8 @@ ctypes.windll.kernel32.SetConsoleTitleW(f"RB9 RAID BOT | Version {VERSION} |")
 bot = commands.Bot(command_prefix="$", intents=discord.Intents(guilds=True, messages=True))
 bot.remove_command('help')
 
-TOKEN = "MTAzMTU4ODE3OTYyODc5ODAwMg.GjEwQ1.42UhxAvLaAA32S_5jvxY14lvvbhGSbtTziaieA"
+TOKEN = ""
+
 os.system("cls")
 @bot.event
 async def on_ready():
